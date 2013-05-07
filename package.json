@@ -1,0 +1,20 @@
+{
+	"name": "CoffeeScriptTest",
+	"author" : "Valerii Pavlov",
+	"version": "0.0.1",
+	"private": true,
+	"description" : "Simpe static page builder",
+	"readmeFilename": "README.md",
+	"scripts" : {
+		"test" : "mocha -w --compilers coffee:coffee-script --reporter spec",
+		"start" : "coffee -w app"
+	},
+	"dependencies": {
+		"mocha" : "*",
+		"express": "2.5.8",
+		"jade": ">= 0.0.1",
+		"async": "*",
+		"underscore" : "*",
+		"requirejs" : "*"
+	}
+}
